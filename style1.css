@@ -1,114 +1,100 @@
-body{
-	margin: 0;
+body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
-header{
-	background: #2d3a3f;
-	color: white;
-	padding: 2rem 0;
-	text-align: center;
-}
-header h1{
-	margin: 0;
-	font-size: 3rem;
-}
-header p{
-	font-size: 1.2rem;
-}
-.container{
-	width: 80%;
-	margin: 0 auto;
-    max-width: 1200px;
-}
-.about, .projects, .contact {
-	padding: 4rem 0;
+
+header {
+    background: #2d3a3f;
+    color: white;
+    padding: 2rem 0;
     text-align: center;
 }
-h2{
-	font-size: 2.5rem;
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about, .projects, .contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
-.about p{
+
+.about p {
     font-size: 1.2rem;
     line-height: 1.6;
 }
-.projects .project{
-	display: inline-block;
+
+.projects .project {
+    display: inline-block;
     width: 30%;
     margin: 1rem;
     background: white;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.projects .project:hover{
+
+.projects .project:hover {
     transform: scale(1.05);
 }
-.projects .project img{
+
+.projects .project img {
     width: 100%;
     height: auto;
-            border-radius: 8px;
-        }
-.contact form{
-     max-width: 600px;
-     margin: 0 auto;
-     background: white;
-     padding: 2rem;
-     border-radius: 8px;
-     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-.contact form input, .contact form textarea{
-     width: 100%;
-     padding: 1rem;
-     margin: 0.5rem 0;
-     border: 1px solid #ccc;
-     border-radius: 8px;
-     font-size: 1rem;
-}
-.contact form button{
-	padding: 4px;
-	background: #2d3a3f;
-	color: white;
-    border: none;
     border-radius: 8px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-.contact form button:hover{
-     background: #1c2a2f;
 }
 
 footer {
-    background: #2d3a3f; 
+    background: #2d3a3f;
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
 footer a {
-    font-size: 1.5rem; 
-    color: #ffdd57;   
-    margin: 0 10px;    
+    font-size: 1.5rem;
+    color: #ffdd57;
+    margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #ffffff;  
+    color: #ffffff;
 }
-
 
 footer i {
-    margin-right: 8px; 
-    transition: transform 0.3s ease; 
+    margin-right: 8px;
+    transition: transform 0.3s ease;
 }
-
 
 footer a:hover i {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
+footer a[href*="linkedin"] i {
+    color: #0077B5;
+}
+
+footer a[href*="github"] i {
+    color: #ffffff;
 }
